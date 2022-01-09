@@ -10,19 +10,19 @@ namespace Examples
         public static async Task Main(string[] args)
         {
             // Your own API key
-            var tvdb = new TVDB("apikey");
+            var tvdb = new TVDB("QMJZCDDG4239G89Z");
 
-            // Retrieve and display Game of Thrones
-            await GetSpecificShow(tvdb);
+            //// Retrieve and display Game of Thrones
+            //await GetSpecificShow(tvdb);
 
-            // Retrieve and display episode titles for Game of Thrones season 2
-            await GetEpisodeTitlesForSeason(tvdb);
+            //// Retrieve and display episode titles for Game of Thrones season 2
+            //await GetEpisodeTitlesForSeason(tvdb);
 
             // Search for Battlestar Galactica on tvdb
             await SearchShow(tvdb);
 
-            // Get updates of the last 24 hours
-            await GetUpdates(tvdb);
+            //// Get updates of the last 24 hours
+            //await GetUpdates(tvdb);
 
             Console.ReadKey();
         }
